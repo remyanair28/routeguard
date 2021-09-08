@@ -1,0 +1,7 @@
+<div *ngIf="employee">
+    <h2 [ngStyle]="{'margin-bottom':'20px'}">Employee Detail</h2>
+    <p>Employee Id: {{employee._id}}</p>
+    <p>Name: {{employee.firstName}} {{employee.lastName}}</p>
+    <p>Salary: {{employee.salary}} </p>
+</div>
+
